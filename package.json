@@ -21,8 +21,10 @@
   },
   "bugs": "https://github.com/zacanger/sortpack/issues",
   "keywords": [
-    "",
-    "sortpack"
+    "cleanup",
+    "organize",
+    "package.json",
+    "sort"
   ],
   "dependencies": {},
   "devDependencies": {
@@ -34,7 +36,6 @@
     "eslint-plugin-node": "8.0.1",
     "eslint-plugin-promise": "4.0.1",
     "eslint-plugin-unicorn": "7.1.0",
-    "fixpack": "2.3.1",
     "tape": "4.9.2"
   },
   "engines": {
