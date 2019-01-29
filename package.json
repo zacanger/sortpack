@@ -1,0 +1,43 @@
+{
+  "name": "sortpack",
+  "description": "sortpack",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "https://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/sortpack#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/sortpack.git"
+  },
+  "bugs": "https://github.com/zacanger/sortpack/issues",
+  "keywords": [
+    "",
+    "sortpack"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "10.0.1",
+    "eslint": "5.12.1",
+    "eslint-config-zacanger": "3.4.2",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.15.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "7.1.0",
+    "fixpack": "2.3.1",
+    "tape": "4.9.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
