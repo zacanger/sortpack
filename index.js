@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const main = () => {
-
+if (!module.parent) {
+  require('./lib')
 }
-
-if (!module.parent) main()
