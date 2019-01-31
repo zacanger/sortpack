@@ -3,8 +3,8 @@
   "description": "Organize your package.json",
   "version": "0.1.0",
   "author": {
-    "name": "Zac Anger",
     "email": "zac@zacanger.com",
+    "name": "Zac Anger",
     "url": "https://zacanger.com"
   },
   "license": "MIT",
