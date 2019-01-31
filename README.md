@@ -2,9 +2,7 @@
 
 Organize your package.json
 
-It's like fixpack, but maintained!
-
-It's also not a thing yet!
+It's like Prettier for your package.json. Inpsired by fixpack, but actively maintained!
 
 --------
 
@@ -22,6 +20,12 @@ Add to your package.json:
 "scripts": {
   "something": "sortpack"
 }
+```
+
+Options:
+
+```
+-i [--indent] # one of: 2 4 tab
 ```
 
 ## License
