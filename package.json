@@ -11,8 +11,9 @@
   "main": "index.js",
   "bin": "./index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "preversion": "npm t",
+    "test": "npm run test:lint",
+    "test:lint": "eslint -c .eslintrc.json *.js lib/*.js"
   },
   "homepage": "https://github.com/zacanger/sortpack#readme",
   "repository": {
