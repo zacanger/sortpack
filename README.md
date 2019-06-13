@@ -8,11 +8,11 @@ It's like Prettier for your package.json. Inpsired by fixpack, but actively main
 
 ## Installation
 
-`npm i -D fixpack`
+`npm i -D sortpack`
 
 ## Usage
 
-`fixpack`
+`sortpack`
 
 Add to your package.json:
 
