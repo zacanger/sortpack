@@ -36,6 +36,4 @@ This project is sponsored on [Patreon](https://www.patreon.com/zacanger) by:
 
 * Keeley Hammond
 
-## License
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
