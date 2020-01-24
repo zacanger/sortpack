@@ -30,4 +30,22 @@ Options:
 -i [--indent] # one of: 2 4 tab
 ```
 
+Use with `husky` and `lint-staged` for automated goodness:
+
+```
+npm i -D husky sortpack lint-staged
+
+// add to package.json:
+  "lint-staged": {
+    "package.json": [
+      "sortpack"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+```
+
 [LICENSE](./LICENSE.md)
