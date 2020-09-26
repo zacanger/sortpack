@@ -107,3 +107,4 @@ src/.webpack.js
 x/
 .nyc_output
 /tags
+/lib
