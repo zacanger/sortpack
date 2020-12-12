@@ -1,18 +1,15 @@
 import * as fs from 'fs'
 import order from './order'
 
-const sortKeys = (object) => {
-  if (Array.isArray(object)) {
-    return [...object].sort()
-  } else {
-    return Object.keys(object)
-      .sort()
-      .reduce((p, c) => {
-        p[c] = object[c]
-        return p
-      }, {})
-  }
-}
+const sortKeys = (object) =>
+  Array.isArray(object)
+    ? [...object].sort()
+    : Object.keys(object)
+        .sort()
+        .reduce((p, c) => {
+          p[c] = object[c]
+          return p
+        }, {})
 
 export const writePackage = (obj, indent = 2) => {
   fs.writeFileSync('package.json', JSON.stringify(obj, null, indent) + '\n')
