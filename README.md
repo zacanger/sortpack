@@ -27,7 +27,7 @@ Add to your package.json:
 Options:
 
 ```
--i [--indent] # one of: 2 4 tab
+-i [--indent] # either the string 'tab', or any number
 ```
 
 Use with `husky` and `lint-staged` for automated goodness:
