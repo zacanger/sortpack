@@ -21,7 +21,8 @@
     "sortpack": "index.js"
   },
   "scripts": {
-    "preversion": "standard"
+    "test": "standard",
+    "preversion": "npm t"
   },
   "homepage": "https://github.com/zacanger/sortpack#readme",
   "repository": {
