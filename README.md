@@ -4,6 +4,8 @@ Organize your package.json
 
 It's like Prettier for your package.json. Inspired by fixpack, but actively maintained!
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Installation
