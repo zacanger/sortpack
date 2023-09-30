@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-if (!module.parent) {
+if (require.main === module) {
   require('./lib')
 }
