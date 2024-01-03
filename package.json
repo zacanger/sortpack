@@ -10,15 +10,14 @@
   "license": "MIT",
   "main": "index.js",
   "files": [
-    "index.js",
-    "lib"
+    "index.js"
   ],
   "bin": {
     "sortpack": "index.js"
   },
   "scripts": {
-    "test": "standard",
-    "preversion": "npm t"
+    "preversion": "npm t",
+    "test": "node index.js && standard --fix"
   },
   "homepage": "https://github.com/zacanger/sortpack#readme",
   "repository": {
@@ -34,10 +33,10 @@
     "package.json",
     "sort"
   ],
-  "devDependencies": {
-    "standard": "17.1.0"
-  },
   "engines": {
     "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
   }
 }
